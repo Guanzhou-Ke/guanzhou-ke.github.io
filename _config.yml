@@ -11,9 +11,9 @@ title                    : "Guanzhou Ke's Cite"
 title_separator          : "-"
 name                     : &name "Guanzhou Ke"
 description              : &description "Deep Learning / Multi-view Learning"
-url                      : https://guanzhou-ke.github.io/guanzhouk.github.io/ # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+url                      : https://guanzhou-ke.github.io/guanzhouk.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
-repository               : "academicpages/academicpages.github.io"
+repository               : "guanzhou-ke/guanzhouk.github.io"
 teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : false # true, false (default)
 words_per_minute         : 160
@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Guanzhou Ke"
-  avatar           : "profile.PNG"
+  avatar           : "profile.png"
   bio              : "Deep Learning / Multi-view Learning"
   location         : "Beijing, China"
   employer         :
