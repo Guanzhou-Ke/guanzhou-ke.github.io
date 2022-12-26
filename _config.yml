@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Guanzhou Ke's Cite"
+title                    : "Home"
 title_separator          : "-"
 name                     : &name "Guanzhou Ke"
 description              : &description "Deep Learning / Multi-view Learning"
