@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Guanzhou Ke's academic personal websites"
+title: "About Me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -21,4 +21,6 @@ News
 Selected Publications
 ---
 
-(TBD)
+<ul>{% for post in site.publications %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
