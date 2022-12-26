@@ -10,4 +10,4 @@ redirect_from:
 
 Bio
 ---
-I am xxx
+My name is Guanzhou Ke (柯冠舟), and I am a first-year Ph.D. student in the School of Economic Management at Beijing Jiaotong University. I'm currently working on multi-view representation learning, especially incomplete view scenario. I'm focusing on designing the new fusion method to improve the expressive power of multi-view representation. In addition, I'm also looking for multi-view or multi-modal internship opportunities.
