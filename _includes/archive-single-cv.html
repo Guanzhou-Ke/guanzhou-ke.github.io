@@ -27,7 +27,7 @@
       </div>
     {% endif %}
     <p class="archive__item-title" itemprop="headline">
-      {{ title }}
+      {{ post.excerpt | markdownify }}, "{{ title }}", {{ post.venue }}, {{ post.date | default: "1900-01-01" | date: "%Y" }}.
     </p>
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock-o" aria-hidden="true"></i> {% include read-time.html %}</p>
