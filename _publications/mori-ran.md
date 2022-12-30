@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/mori-ran
 excerpt: '**Guanzhou Ke**, Yongqi Zhu, and Yang Yu'
 date: 2022-09-01
-venue: 'ICDM 2022'
+venue: 'ICDM workshop'
 ---
 
 ![Arch](https://ihades.cn/images/mori-ran-arch.png)

@@ -4,7 +4,7 @@ collection: publications
 permalink: /publication/conan-contrastive-fusion-networks-for-multi-view-clustering
 excerpt: '**Guanzhou Ke**, Zhiyong Hong, Zhiqiang Zeng, Zeyi Liu, Yangjie Sun, and Yannan Xie'
 date: 2021-12-01
-venue: '2021 IEEE International Conference on Big Data (Big Data)'
+venue: 'IEEE International Conference on Big Data (Big Data)'
 ---
 
 ![Arch](https://ihades.cn/images/conan-arch.png)
