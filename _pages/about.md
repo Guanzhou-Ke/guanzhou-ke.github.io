@@ -17,7 +17,8 @@ News
 ---
 
 * 07/2023, One paper is accepted in ACM MM 2023 (CCF A)
-
+* 10/2022, One paper is accepted in ICDM Workshop (CCF B)
+* 09/2022, is studied at Beijing Jiaotong University (Ph.D.)
 
 Services
 ---
