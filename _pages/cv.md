@@ -18,7 +18,7 @@ Education
 
 Work experience
 ======
-* 2023/06-2023/12: Research Intern
+* 06/2023 - 12/2023: Research Intern
   * The Institute of Automation, Chinese Academy of Sciences.
   * Duties included: Deepfake Detection (Multi-modalities).
   * Supervisor: [Bo Wang](http://vslab.ia.ac.cn/people/)
@@ -45,7 +45,6 @@ Talks
 Services
 ======
 
-<b>Journal Reviewer:</b>
-
-- IEEE TMM
-- Information Sciences
+* Journal Reviewer:
+  * IEEE TMM
+  * Information Sciences

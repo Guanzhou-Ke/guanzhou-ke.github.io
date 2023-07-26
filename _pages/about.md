@@ -16,16 +16,15 @@ My name is Guanzhou Ke, and I am pursuing my doctoral degree in Information Mana
 News
 ---
 
-- 07/2023, One paper is accepted in ACM MM 2023 (CCF A)
+* 07/2023, One paper is accepted in ACM MM 2023 (CCF A)
 
 
 Services
 ---
 
-<b>Journal Reviewer:</b>
-
-- IEEE TMM
-- Information Sciences
+* Journal Reviewer:
+  * IEEE TMM
+  * Information Sciences
 
 
 Selected Publications
