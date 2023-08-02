@@ -18,6 +18,7 @@ venue: 'The 31st ACM International Conference on Multimedia (ACM MM 2023)'
 Citation:
 
 Plain:
+
 ```
 Guanzhou Ke, Yang Yu, Guoqing Chao, Xiaoli Wang, Chenyang Xu,
 and Shengfeng He. 2023. Disentangling Multi-view Representations Be-
@@ -27,6 +28,7 @@ ACM, New York, NY, USA, 9 pages. https://doi.org/10.1145/3581783.3611794
 ```
 
 Bibtext:
+
 ```
 @inproceedings{ke2023dmrib,
   title={Disentangling Multi-view Representations Beyond Inductive Bias},
