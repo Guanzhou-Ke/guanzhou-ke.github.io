@@ -17,8 +17,9 @@ News
 ---
 
 * 07/2023, One paper is accepted in ACM MM 2023 (CCF A)
-* 10/2022, One paper is accepted in ICDM Workshop (CCF B)
+* 10/2022, One paper is accepted in ICDM Workshop 2022 (CCF B)
 * 09/2022, is studied at Beijing Jiaotong University (Ph.D.)
+* 12/2021, One paper is accepted in IEEE Bigdata 2021 (CCF C)
 
 Services
 ---
@@ -26,6 +27,10 @@ Services
 * Journal Reviewer:
   * IEEE TMM
   * Information Sciences
+* Conference Reviewer:
+  * ACM MM 2023
+  * AAAI 2023
+
 
 
 Selected Publications
