@@ -24,7 +24,7 @@ author_profile: true
 
 .right {
   overflow: visible;
-  height: 150px;
+  /* height: 150px; */
   /* background: #efefef; */
 }
 
@@ -40,11 +40,13 @@ author_profile: true
 
 
 <div class="content">
-  <div class="left">
-    <img src="https://ihades.cn/images/cloven-arch.png">
-  </div>
+
+  <img src="https://ihades.cn/images/cloven-arch.png" class="left">
+
   <div class="right">
-    <p>A Clustering-guided Contrastive Fusion for Multi-view Representation Learning <a href="https://arxiv.org/pdf/2212.13726.pdf" style="color: blue;">[PDF]</a> <a href="https://github.com/Guanzhou-Ke/cloven" style="color: blue;">[CODE]</a> <br> **Guanzhou Ke**, Guoqing Chao, Xiaoli Wang, Chenyang Xu, Yongqi Zhu, and Yang Yu <br> IEEE Transactions on Circuits and Systems for Video Technology </p>
+    <b>A Clustering-guided Contrastive Fusion for Multi-view Representation Learning</b> <a href="https://arxiv.org/pdf/2212.13726.pdf" style="color: blue;">[PDF]</a> <a href="https://github.com/Guanzhou-Ke/cloven" style="color: blue;">[CODE]</a> 
+    <br> <b>Guanzhou Ke</b>, Guoqing Chao, Xiaoli Wang, Chenyang Xu, Yongqi Zhu, and Yang Yu 
+    <br> IEEE Transactions on Circuits and Systems for Video Technology (TCSVT) <text style="color: red;"> CCF A </text>
   </div>
 </div>
 
