@@ -1,6 +1,6 @@
 ---
 title: "Efficient Multi-view Clustering Networks"
-authors: '<b> Guanzhou Ke </b>, Zhiyong Hong, Wenhua Yu, Xin Zhang, and Zeyi Liu'
+authors: '<b>Guanzhou Ke</b>, Zhiyong Hong, Wenhua Yu, Xin Zhang, and Zeyi Liu'
 date: 2022-01-01
 pubinfo: 'Applied Intelligence Springer'
 code: https://github.com/Guanzhou-Ke/EMC-Nets
