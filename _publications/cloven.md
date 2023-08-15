@@ -1,10 +1,12 @@
 ---
 title: "A Clustering-guided Contrastive Fusion for Multi-view Representation Learning"
-collection: publications
-permalink: /publications/cloven
-excerpt: '**Guanzhou Ke**, Guoqing Chao, Xiaoli Wang, Chenyang Xu, Yongqi Zhu, and Yang Yu'
+authors: '<b> Guanzhou Ke </b>, Guoqing Chao, Xiaoli Wang, Chenyang Xu, Yongqi Zhu, and Yang Yu'
 date: 2023-08-01
-venue: 'IEEE Transactions on Circuits and Systems for Video Technology'
+pubinfo: 'IEEE Transactions on Circuits and Systems for Video Technology'
+arch: https://ihades.cn/images/cloven-arch.png
+code: https://github.com/Guanzhou-Ke/cloven
+pdf: https://arxiv.org/pdf/2212.13726.pdf
+rank: "CCF B"
 ---
 
 ![Arch](https://ihades.cn/images/cloven-arch.png)

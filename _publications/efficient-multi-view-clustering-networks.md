@@ -1,11 +1,12 @@
 ---
 title: "Efficient Multi-view Clustering Networks"
-collection: publications
-permalink: /publications/efficient-multi-view-clustering-networks
-excerpt: '**Guanzhou Ke**, Zhiyong Hong, Wenhua Yu, Xin Zhang, and Zeyi Liu'
+authors: '<b> Guanzhou Ke </b>, Zhiyong Hong, Wenhua Yu, Xin Zhang, and Zeyi Liu'
 date: 2022-01-01
-venue: 'Applied Intelligence Springer'
-codeurl: https://github.com/Guanzhou-Ke/EMC-Nets
+pubinfo: 'Applied Intelligence Springer'
+code: https://github.com/Guanzhou-Ke/EMC-Nets
+arch: https://ihades.cn/images/emc-arch.png
+pdf: https://ihades.cn/files/emc-nets.pdf
+rank: "CCF C"
 ---
 
 ![Arch](https://ihades.cn/images/emc-arch.png)
