@@ -326,24 +326,20 @@
   margin-left: .3em;
 }
 
-* {
-  box-sizing: border-box;
+.left {
+  float: left;
+  width: 150px;
+  height: 100px;
+  /* background: #bfbfbf; */
 }
 
-.wrap {
-  width: 600px;
-  margin: auto;
-  display: flex;
-  align-items: center;
+.right {
+  overflow: visible;
+  padding: 10px;
+  padding-left: 160px
 }
 
-.wrap img {
-  width: 50%;
-  vertical-align: middle;
-}
-
-.txt {
-  width: 50%;
-  vertical-align: middle;
-  padding-left: 20px;
+.small-text {
+  font-size: 14px;
+  padding-top: 5px;
 }
