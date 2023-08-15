@@ -36,6 +36,6 @@ Services
 Selected Publications
 ---
 
-<ul>{% for post in site.selectedpubs %}
+<ul>{% for post in site.selectedpubs reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>

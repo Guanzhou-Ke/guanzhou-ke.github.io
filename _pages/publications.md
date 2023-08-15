@@ -13,35 +13,40 @@ author_profile: true
 
 <style>
 
-.pblock {
-  width: 800px;
+
+
+.left {
+  float: left;
+  width: 150px;
+  height: 150px;
+  /* background: #bfbfbf; */
 }
 
-.pblock img {
-      float: left;
-      margin-right: 10px;
-      width: 150px;
-      height: 100px;
-  }
-.pblock p {
-    width: 600px;
-    line-height: 20px;
-    overflow: hidden;
+.right {
+  overflow: visible;
+  height: 150px;
+  /* background: #efefef; */
 }
 
-
+.right p{
+  /* margin: 0 20px 0; */
+  text-align: left;
+  margin-left: 20px;
+}
 </style>
 
 2023
 ===
 
-<div class="pblock">
+
+<div class="content">
+  <div class="left">
     <img src="https://ihades.cn/images/cloven-arch.png">
-<p>A Clustering-guided Contrastive Fusion for Multi-view Representation Learning</p>
-
-<p>Guanzhou Ke</p>
+  </div>
+  <div class="right">
+    <p>A Clustering-guided Contrastive Fusion for Multi-view Representation Learning <a href="https://arxiv.org/pdf/2212.13726.pdf" style="color: blue;">[PDF]</a> <a href="https://github.com/Guanzhou-Ke/cloven" style="color: blue;">[CODE]</a> <br> **Guanzhou Ke**, Guoqing Chao, Xiaoli Wang, Chenyang Xu, Yongqi Zhu, and Yang Yu <br> IEEE Transactions on Circuits and Systems for Video Technology </p>
+  </div>
 </div>
-
 
 {% for post in site.publications reversed %}
   {% include archive-single.html %}
