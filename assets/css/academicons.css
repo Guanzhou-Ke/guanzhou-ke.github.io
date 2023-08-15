@@ -325,3 +325,25 @@
 .fa.fa-pull-right {
   margin-left: .3em;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.wrap {
+  width: 600px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+}
+
+.wrap img {
+  width: 50%;
+  vertical-align: middle;
+}
+
+.txt {
+  width: 50%;
+  vertical-align: middle;
+  padding-left: 20px;
+}
