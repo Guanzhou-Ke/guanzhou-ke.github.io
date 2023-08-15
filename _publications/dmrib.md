@@ -1,7 +1,7 @@
 ---
 title: "Disentangling Multi-view Representations Beyond Inductive Bias"
 collection: publications
-permalink: /publication/dmrib
+permalink: /publications/dmrib
 excerpt: '**Guanzhou Ke**, Yang Yu, Guoqing Chao, Xiaoli Wang, Chenyang Xu, and Shengfeng He'
 date: 2023-07-26
 venue: 'The 31st ACM International Conference on Multimedia (ACM MM 2023)'

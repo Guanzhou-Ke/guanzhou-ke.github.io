@@ -1,7 +1,7 @@
 ---
 title: "Efficient Multi-view Clustering Networks"
 collection: publications
-permalink: /publication/efficient-multi-view-clustering-networks
+permalink: /publications/efficient-multi-view-clustering-networks
 excerpt: '**Guanzhou Ke**, Zhiyong Hong, Wenhua Yu, Xin Zhang, and Zeyi Liu'
 date: 2022-01-01
 venue: 'Applied Intelligence Springer'

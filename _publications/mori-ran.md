@@ -1,7 +1,7 @@
 ---
 title: "MORI-RAN: Multi-view Robust Representation Learning via Hybrid Contrastive Fusion"
 collection: publications
-permalink: /publication/mori-ran
+permalink: /publications/mori-ran
 excerpt: '**Guanzhou Ke**, Yongqi Zhu, and Yang Yu'
 date: 2022-09-01
 venue: 'ICDM workshop'
