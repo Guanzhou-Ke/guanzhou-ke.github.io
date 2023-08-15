@@ -5,6 +5,7 @@ permalink: /publications/efficient-multi-view-clustering-networks
 excerpt: '**Guanzhou Ke**, Zhiyong Hong, Wenhua Yu, Xin Zhang, and Zeyi Liu'
 date: 2022-01-01
 venue: 'Applied Intelligence Springer'
+codeurl: https://github.com/Guanzhou-Ke/EMC-Nets
 ---
 
 ![Arch](https://ihades.cn/images/emc-arch.png)

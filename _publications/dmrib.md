@@ -5,6 +5,7 @@ permalink: /publications/dmrib
 excerpt: '**Guanzhou Ke**, Yang Yu, Guoqing Chao, Xiaoli Wang, Chenyang Xu, and Shengfeng He'
 date: 2023-07-26
 venue: 'The 31st ACM International Conference on Multimedia (ACM MM 2023)'
+codeurl: https://github.com/Guanzhou-Ke/DMRIB
 ---
 
 ![Arch](https://ihades.cn/images/dmrib-arch.png)

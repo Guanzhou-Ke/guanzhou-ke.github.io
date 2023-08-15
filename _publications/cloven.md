@@ -5,6 +5,7 @@ permalink: /publications/cloven
 excerpt: '**Guanzhou Ke**, Guoqing Chao, Xiaoli Wang, Chenyang Xu, Yongqi Zhu, and Yang Yu'
 date: 2023-08-01
 venue: 'IEEE Transactions on Circuits and Systems for Video Technology'
+codeurl: https://github.com/Guanzhou-Ke/cloven
 ---
 
 ![Arch](https://ihades.cn/images/cloven-arch.png)
