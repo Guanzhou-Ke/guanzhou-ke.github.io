@@ -11,6 +11,12 @@ author_profile: true
 
 {% include base_path %}
 
-{% for post in site.publications reversed %}
+### 2023
+{% for post in site.publications.2023 reversed %}
+  {% include publications-simple.html %}
+{% endfor %}
+
+### 2022 or early
+{% for post in site.publications.2022-early reversed %}
   {% include publications-simple.html %}
 {% endfor %}
