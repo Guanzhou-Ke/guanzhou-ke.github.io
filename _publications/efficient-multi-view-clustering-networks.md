@@ -5,8 +5,8 @@ date: 2022-01-01
 year: 2022
 pubinfo: 'Applied Intelligence Springer'
 code: https://github.com/Guanzhou-Ke/EMC-Nets
-arch: https://ihades.cn/images/emc-arch.png
-pdf: https://ihades.cn/files/emc-nets.pdf
+arch: https://guanzhouk.top/images/emc-arch.png
+pdf: https://guanzhouk.top/files/emc-nets.pdf
 rank: "CCF C"
 ---
 

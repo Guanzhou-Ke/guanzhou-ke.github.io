@@ -5,7 +5,7 @@ date: 2022-09-01
 year: 2022
 pubinfo: 'ICDM workshop'
 code: https://github.com/Guanzhou-Ke/mori-ran
-arch: https://ihades.cn/images/mori-ran-arch.png
+arch: https://guanzhouk.top/images/mori-ran-arch.png
 pdf: https://arxiv.org/pdf/2208.12545
 rank: "CCF B"
 ---

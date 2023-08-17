@@ -4,7 +4,7 @@ authors: '<b>Guanzhou Ke</b>, Guoqing Chao, Xiaoli Wang, Chenyang Xu, Yongqi Zhu
 date: 2023-08-01
 year: 2023
 pubinfo: 'IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)'
-arch: https://ihades.cn/images/cloven-arch.png
+arch: https://guanzhouk.top/images/cloven-arch.png
 code: https://github.com/Guanzhou-Ke/cloven
 pdf: https://arxiv.org/pdf/2212.13726.pdf
 rank: "CCF B"

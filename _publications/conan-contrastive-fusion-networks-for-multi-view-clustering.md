@@ -6,9 +6,9 @@ authors: '<b>Guanzhou Ke</b>, Zhiyong Hong, Zhiqiang Zeng, Zeyi Liu, Yangjie Sun
 date: 2021-12-01
 year: 2021
 pubinfo: 'IEEE International Conference on Big Data (Big Data)'
-arch: https://ihades.cn/images/conan-arch.png
+arch: https://guanzhouk.top/images/conan-arch.png
 code: https://github.com/Guanzhou-Ke/conan
-pdf: https://ihades.cn/files/conan.pdf
+pdf: https://guanzhouk.top/files/conan.pdf
 rank: "CCF C"
 ---
 

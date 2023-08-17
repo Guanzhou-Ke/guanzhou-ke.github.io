@@ -4,8 +4,8 @@ authors: '<b>Guanzhou Ke</b>, Yang Yu, Guoqing Chao, Xiaoli Wang, Chenyang Xu, a
 date: 2023-07-26
 pubinfo: 'The 31st ACM International Conference on Multimedia (ACM MM 2023)'
 code: https://github.com/Guanzhou-Ke/DMRIB
-arch: https://ihades.cn/images/dmrib-arch.png
-pdf: https://ihades.cn/files/dmrib.pdf
+arch: https://guanzhouk.top/images/dmrib-arch.png
+pdf: https://guanzhouk.top/files/dmrib.pdf
 rank: "CCF A"
 ---
 
