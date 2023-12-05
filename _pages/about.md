@@ -26,7 +26,7 @@ Services
 ---
 
 * Journal Reviewer:
-  * IEEE TMM
+  * IEEE TMM / T-CSVT
   * Information Sciences
 * Conference Reviewer:
   * ACM MM 2023
