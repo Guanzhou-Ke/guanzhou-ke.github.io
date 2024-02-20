@@ -20,8 +20,13 @@ Work experience
 ======
 * 06/2023 - 12/2023: Research Intern
   * The Institute of Automation, Chinese Academy of Sciences.
-  * Duties included: Deepfake Detection (Multi-modalities).
-  * Supervisor: [Bo Wang](http://vslab.ia.ac.cn/people/)
+  * Duties: Collect Deepfake data, including AIGC, Face swap, etc., and train model to detect fake information. (focus on multi-modalities, such as text and images).
+  * Mentor: [Bo Wang](http://vslab.ia.ac.cn/people/)
+
+* 02/2024 - 08/2024: Research Intern
+  * Microsoft Research Lab - Asia (MSRA), Shanghai AI/ML Group.
+  * Duties: Study medical report automatic generation technique. 
+  * Mentor: [Xinyang Jiang](https://www.microsoft.com/en-us/research/people/xinyangjiang/)
 
   
 Skills
@@ -46,7 +51,7 @@ Services
 ======
 
 * Journal Reviewer:
-  * IEEE TMM / T-CSVT
+  * IEEE TMM / T-CSVT / TAI
   * Information Sciences
 * Conference Reviewer:
   * ACM MM 2023
