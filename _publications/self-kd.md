@@ -1,6 +1,6 @@
 ---
 title: "Knowledge distillation-driven semi-supervised multi-view classification"
-authors: 'Xiaoli Wang, Yongli Wang, <b>Guanzhou Ke</b>, Yupeng Wang, Xiaobin Hong'
+authors: 'Xiaoli Wang, Yongli Wang, <b>Guanzhou Ke</b>, Yupeng Wang, and Xiaobin Hong'
 date: 2023-10-20
 year: 2023
 pubinfo: 'Information Fusion'
