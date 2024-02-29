@@ -16,6 +16,11 @@ My name is Guanzhou Ke, and I am pursuing my doctoral degree in Information Mana
 News
 ---
 
+* 02/2024, One paper is accepted in CVPR 24 (CCF A).
+
+
+===
+
 * 10/2023, One paper is accepted in Information Fusion.
 * 07/2023, One paper is accepted in ACM MM 2023. (CCF A)
 * 10/2022, One paper is accepted in ICDM Workshop 2022. (CCF B)
