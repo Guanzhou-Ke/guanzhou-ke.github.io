@@ -6,5 +6,6 @@ year: 2024
 pubinfo: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2024'
 arch: https://guanzhouk.top/images/mrdd-arch.png
 code: https://github.com/Guanzhou-Ke/MRDD
+pdf: https://arxiv.org/abs/2403.10897
 rank: "CCF A"
 ---
