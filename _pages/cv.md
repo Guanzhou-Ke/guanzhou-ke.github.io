@@ -11,24 +11,23 @@ redirect_from:
 
 Education
 ======
-* B.S. in Communication Engineering, Wuyi University, Jiangmen, China, 2019
-* M.S. in System Engineering, Wuyi University, Jiangmen, China, 2022
 * Ph.D in Information Management, Beijing Jiaotong University, 2026 (expected)
-
+* M.S. in System Engineering, Wuyi University, Jiangmen, China, 2022
+* B.S. in Communication Engineering, Wuyi University, Jiangmen, China, 2019
 
 Work experience
 ======
-* 06/2023 - 12/2023: Research Intern
-  * The Institute of Automation, Chinese Academy of Sciences.
-  * Duties: Collect Deepfake data, including AIGC, Face swap, etc., and train model to detect fake information. (focus on multi-modalities, such as text and images).
-  * Mentor: [Bo Wang](http://vslab.ia.ac.cn/people/)
-
 * 02/2024 - 08/2024: Research Intern
   * Microsoft Research Lab - Asia (MSRA), Shanghai AI/ML Group.
   * Duties: Study medical report automatic generation technique. 
   * Mentor: [Xinyang Jiang](https://www.microsoft.com/en-us/research/people/xinyangjiang/)
 
-  
+* 06/2023 - 12/2023: Research Intern
+  * The Institute of Automation, Chinese Academy of Sciences.
+  * Duties: Collect Deepfake data, including AIGC, Face swap, etc., and train model to detect fake information. (focus on multi-modalities, such as text and images).
+  * Mentor: [Bo Wang](http://vslab.ia.ac.cn/people/)
+
+
 Skills
 ======
 * Python
@@ -54,5 +53,5 @@ Services
   * IEEE TMM / T-CSVT / TAI
   * Information Sciences
 * Conference Reviewer:
-  * ACM MM 2023
+  * ACM MM 2023 & 24
   * AAAI 2023

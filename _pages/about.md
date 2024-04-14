@@ -30,7 +30,7 @@ Services
   * IEEE TMM / T-CSVT
   * Information Sciences
 * Conference Reviewer:
-  * ACM MM 2023
+  * ACM MM 2023 & 24
   * AAAI 2023
 
 
