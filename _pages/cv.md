@@ -50,8 +50,10 @@ Services
 ======
 
 * Journal Reviewer:
-  * IEEE TMM / T-CSVT / TAI
+  * IEEE Transactions on Multimedia
+  * IEEE Transactions on Neural Networks and Learning Systems
+  * IEEE Transactions on Circuits and Systems for Video Technology
   * Information Sciences
 * Conference Reviewer:
-  * ACM MM 2023 & 24
-  * AAAI 2023
+  * AAAI Conference on Artificial Intelligence (2023)
+  * ACM Multimedia 2023-2024
