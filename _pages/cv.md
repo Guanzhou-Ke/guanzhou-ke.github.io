@@ -17,7 +17,7 @@ Education
 
 Work experience
 ======
-* 02/2024 - 08/2024: Research Intern
+* 02/2024 - 09/2024: Research Intern
   * Microsoft Research Lab - Asia (MSRA), Shanghai AI/ML Group.
   * Duties: Study medical report automatic generation technique. 
   * Mentor: [Xinyang Jiang](https://www.microsoft.com/en-us/research/people/xinyangjiang/)

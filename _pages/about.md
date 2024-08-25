@@ -10,7 +10,7 @@ redirect_from:
 
 Bio
 ---
-My name is Guanzhou Ke, and I am pursuing my doctoral degree in Information Management at Beijing Jiaotong University. I received my B.S. in Communication Engineering and M.S. in Systems Engineering from Wuyi University in 2019 and 2022, respectively. I’m currently working on multi-view representation learning, especially incomplete view scenario. I’m focusing on designing the new fusion method to improve the expressive power of multi-view representation.
+My name is (Gavin) Guanzhou Ke, and I am pursuing my doctoral degree in Information Management at Beijing Jiaotong University. I received my B.S. in Communication Engineering and M.S. in Systems Engineering from Wuyi University in 2019 and 2022, respectively. I’m currently working on multi-view representation learning, especially incomplete view scenario. I’m focusing on designing the new fusion method to improve the expressive power of multi-view representation.
 
 
 News
