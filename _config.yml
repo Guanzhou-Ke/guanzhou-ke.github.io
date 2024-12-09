@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Home"
 title_separator          : "-"
 name                     : &name "(Gavin) Guanzhou Ke"
-description              : &description "Deep Learning / Multi-view Learning"
+description              : &description "Multi-modal (-view) Learning / Missing Multi-modality Method / Large Models"
 url                      : https://guanzhouk.top # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "guanzhou-ke/guanzhou-ke.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Guanzhou Ke"
   avatar           : "profile.webp"
-  bio              : "Deep Learning / Multi-view Learning"
+  bio              : "Multi-modal (-view) Learning / Missing Multi-modality Method / Large Models"
   location         : "Beijing, China"
   employer         :
   pubmed           : 

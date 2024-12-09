@@ -17,6 +17,7 @@ News
 ---
 
 * 10/2024, as CSC visiting PhD student (1 year) at Singapore Management University.
+* 02/2024, as an intern in the AI4Science group at Microsoft Research Asia Shanghai.
 * 02/2024, One paper is accepted in CVPR 24 (CCF A).
 * 10/2023, One paper is accepted in Information Fusion.
 * 07/2023, One paper is accepted in ACM MM 2023. (CCF A)
