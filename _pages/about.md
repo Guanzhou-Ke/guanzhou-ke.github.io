@@ -15,15 +15,15 @@ My name is (Gavin) Guanzhou Ke, and I am pursuing my doctoral degree in Informat
 
 News
 ---
-
+* 12/2024, two papers are accepted in AAAI 2025 (CCF A).
 * 10/2024, as CSC visiting PhD student (1 year) at Singapore Management University.
 * 02/2024, as an intern in the AI4Science group at Microsoft Research Asia Shanghai.
-* 02/2024, One paper is accepted in CVPR 24 (CCF A).
-* 10/2023, One paper is accepted in Information Fusion.
-* 07/2023, One paper is accepted in ACM MM 2023. (CCF A)
-* 10/2022, One paper is accepted in ICDM Workshop 2022. (CCF B)
+* 02/2024, one paper is accepted in CVPR 24 (CCF A).
+* 10/2023, one paper is accepted in Information Fusion.
+* 07/2023, one paper is accepted in ACM MM 2023. (CCF A)
+* 10/2022, one paper is accepted in ICDM Workshop 2022. (CCF B)
 * 09/2022, is studied at Beijing Jiaotong University. (Ph.D.)
-* 12/2021, One paper is accepted in IEEE Bigdata 2021. (CCF C)
+* 12/2021, one paper is accepted in IEEE Bigdata 2021. (CCF C)
 
 Services
 ---
