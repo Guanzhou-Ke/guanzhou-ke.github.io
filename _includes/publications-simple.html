@@ -19,7 +19,9 @@
     <div class="right">
       <b>{{ post.title }}</b> 
       <br> <text class="small-text"> {{ post.authors }}</text>
-      <br> <text class="small-text"> {{ post.pubinfo }} -- <text style="color: red;"> {{ post.rank }} </text> -- <a href="{{ post.pdf }}" style="color: blue;">[PDF]</a> <a href="{{ post.code }}" style="color: blue;">[CODE]</a>  </text>
+      <br> <text class="small-text"> {{ post.pubinfo }} -- <text style="color: red;"> {{ post.rank }} </text> -- 
+      {% if post.pdf %} <a href="{{ post.pdf }}" style="color: blue;">[PDF]</a> {% else %} <a href="{{ post.pdf }}" style="color: gray;">[PDF]</a> {% endif %} 
+      {% if post.code %} <a href="{{ post.code }}" style="color: blue;">[CODE]</a>  {% else %}  <a href="{{ post.code }}" style="color: gray;">[CODE]</a> {% endif %} 
     </div>
   </div>
 
