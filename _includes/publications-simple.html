@@ -11,10 +11,34 @@
 {% else %}
   {% assign title = post.title %}
 {% endif %}
+<style>
+  .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+      max-width: 150px; /* 设置最大宽度 */
+      max-height: 100px; /* 设置最大高度 */
+      margin: 0 auto; /* 居中对齐 */
+  }
+  .image {
+      width: 100%; /* 宽度对齐 */
+      height: auto; /* 保持比例 */
+  }
+</style>
 
 <div class="{{ include.type | default: "list" }}__item">
 
   <div class="list__item">
+    <div class="container">
+      <!-- 框架图 -->
+      <img src="{{ post.arch }}" class="image left">
+      {% if post.banner %}
+      <!-- Banner图 -->
+      <img src="banner_image.jpg" class="image left">
+      {% endif %}
+    </div>
+
     <img src="{{ post.arch }}" class="left">
     <div class="right">
       <b>{{ post.title }}</b> 
