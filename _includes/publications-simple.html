@@ -16,12 +16,12 @@
 <div class="{{ include.type | default: "list" }}__item">
 
   <div class="list__item">
-    <div class="framework">
+    <div class="left">
       <!-- 框架图 -->
-      <img src="{{ post.arch }}" class="left">
+      <img src="{{ post.arch }}" >
       {% if post.banner %}
       <!-- Banner图 -->
-      <img src="banner_image.jpg" class="left">
+      <img src="{{ post.banner }}" >
       {% endif %}
     </div>
 
