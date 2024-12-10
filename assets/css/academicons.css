@@ -343,3 +343,13 @@
   font-size: 14px;
   padding-top: 5px;
 }
+
+.framework {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 150px; /* 设置最大宽度 */
+  max-height: 100px; /* 设置最大高度 */
+  margin: 0 auto; /* 居中对齐 */
+}
