@@ -32,7 +32,7 @@
       <b>{{ post.title }}</b>
       <br> <text class="small-text"> {{ post.authors }}</text>
       <br> <text class="small-text"> {{ post.pubinfo }} </text>
-      <br> <text class="small-text"> Rank: <text style="color: red;"> {{ post.rank }} </text>
+      <br> <text class="small-text"> Rank: <text style="color: red;"> {{ post.rank }} </text>, MISC: 
         {% if post.pdf %} <a href="{{ post.pdf }}" style="color: blue;">[PDF]</a> {% else %} <a href="#"
           style="color: gray; pointer-events: none; cursor: default;">[PDF]</a> {% endif %}
         {% if post.code %} <a href="{{ post.code }}" style="color: blue;">[CODE]</a> {% else %} <a href="#"
