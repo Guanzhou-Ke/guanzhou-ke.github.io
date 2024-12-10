@@ -1,38 +1,42 @@
 {% include base_path %}
 
 {% if post.header.teaser %}
-  {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% capture teaser %}{{ post.header.teaser }}{% endcapture %}
 {% else %}
-  {% assign teaser = site.teaser %}
+{% assign teaser = site.teaser %}
 {% endif %}
 
 {% if post.id %}
-  {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
 {% else %}
-  {% assign title = post.title %}
+{% assign title = post.title %}
 {% endif %}
 
 
-<div class="{{ include.type | default: "list" }}__item">
+<div class="{{ include.type | default: " list" }}__item">
 
   <div class="list__item">
     <div class="left">
       <!-- 框架图 -->
-      <img src="{{ post.arch }}" >
       {% if post.banner %}
+
+      <img src="{{ post.arch }}" class="left" style="height: 80%;">
       <!-- Banner图 -->
-      <img src="{{ post.banner }}" >
+      <img src="{{ post.banner }}" class="left" style="height: 20%;">
+      {% else %}
+      <img src="{{ post.arch }}" class="left">
       {% endif %}
     </div>
 
-    <!-- <img src="{{ post.arch }}" class="left"> -->
     <div class="right">
-      <b>{{ post.title }}</b> 
+      <b>{{ post.title }}</b>
       <br> <text class="small-text"> {{ post.authors }}</text>
       <br> <text class="small-text"> {{ post.pubinfo }} </text>
       <br> <text class="small-text"> Rank: <text style="color: red;"> {{ post.rank }} </text>
-      {% if post.pdf %} <a href="{{ post.pdf }}" style="color: blue;">[PDF]</a> {% else %} <a href="#" style="color: gray; pointer-events: none; cursor: default;">[PDF]</a> {% endif %} 
-      {% if post.code %} <a href="{{ post.code }}" style="color: blue;">[CODE]</a>  {% else %}  <a href="#" style="color: gray; pointer-events: none; cursor: default;">[CODE]</a> {% endif %} </text>
+        {% if post.pdf %} <a href="{{ post.pdf }}" style="color: blue;">[PDF]</a> {% else %} <a href="#"
+          style="color: gray; pointer-events: none; cursor: default;">[PDF]</a> {% endif %}
+        {% if post.code %} <a href="{{ post.code }}" style="color: blue;">[CODE]</a> {% else %} <a href="#"
+          style="color: gray; pointer-events: none; cursor: default;">[CODE]</a> {% endif %} </text>
     </div>
   </div>
 
