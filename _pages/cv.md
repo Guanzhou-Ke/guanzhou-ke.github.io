@@ -9,14 +9,14 @@ redirect_from:
 
 {% include base_path %}
 
-Education
+🎓 Education
 ======
 * (CSC) Visiting PhD Student in Computer Science, School of Computing and Information Systems, Singapore Management University, Singapore, 2024 - 2025, advisor: Prof. [Shengfeng He](http://www.shengfenghe.com/).
 * Ph.D in Information Management, Beijing Jiaotong University, 2026 (expected)
 * M.S. in System Engineering, Wuyi University, Jiangmen, China, 2022
 * B.S. in Communication Engineering, Wuyi University, Jiangmen, China, 2019
 
-Work experience
+💼 Work experience
 ======
 * 02/2024 - 10/2024: Research Intern
   * Microsoft Research Lab - Asia (MSRA), Shanghai AI/ML Group.
@@ -29,12 +29,12 @@ Work experience
   * Mentor: [Bo Wang](http://vslab.ia.ac.cn/people/)
 
 
-Skills
+🛠️ Skills
 ======
 * Python
 * C++
 
-Publications
+📄 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
@@ -47,7 +47,7 @@ Publications
   {% endfor %}</ul> -->
   
   
-Services
+🤝 Services
 ======
 
 * Journal Reviewer:
