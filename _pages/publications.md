@@ -30,7 +30,7 @@ author_profile: true
 
   {% if post.year <= 2022 and v2022 %}
   {% assign v2022 = false %}
-### 2022 or Early
+### Early Publication
   {% endif %}
 
   {% include publications-simple.html %}
