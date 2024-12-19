@@ -12,27 +12,28 @@ redirect_from:
 🎓 Education
 ======
 * (CSC) Visiting PhD Student in Computer Science, School of Computing and Information Systems, Singapore Management University, Singapore, 2024 - 2025, advisor: Prof. [Shengfeng He](http://www.shengfenghe.com/).
-* Ph.D in Information Management, Beijing Jiaotong University, 2026 (expected)
-* M.S. in System Engineering, Wuyi University, Jiangmen, China, 2022
-* B.S. in Communication Engineering, Wuyi University, Jiangmen, China, 2019
+* Ph.D in Information Management, Beijing Jiaotong University, 2026 (expected).
+* M.S. in System Engineering, Wuyi University, Jiangmen, China, 2022.
+* B.S. in Communication Engineering, Wuyi University, Jiangmen, China, 2019.
+* Associate Degree, in Software Engineering, Guangdong Environmental Protection Engineering Vocational College, Foshan, China, 2017.
 
 💼 Work experience
 ======
 * 02/2024 - 10/2024: Research Intern
   * Microsoft Research Lab - Asia (MSRA), Shanghai AI/ML Group.
   * Duties: Study medical report automatic generation technique. 
-  * Mentor: [Xinyang Jiang](https://www.microsoft.com/en-us/research/people/xinyangjiang/)
+  * Mentor: [Xinyang Jiang](https://www.microsoft.com/en-us/research/people/xinyangjiang/).
 
 * 06/2023 - 12/2023: Research Intern
   * The Institute of Automation, Chinese Academy of Sciences.
   * Duties: Collect Deepfake data, including AIGC, Face swap, etc., and train model to detect fake information. (focus on multi-modalities, such as text and images).
-  * Mentor: [Bo Wang](http://vslab.ia.ac.cn/people/)
+  * Mentor: [Bo Wang](http://vslab.ia.ac.cn/people/).
 
 
 🛠️ Skills
 ======
 * Python
-* C++
+
 
 📄 Publications
 ======
