@@ -13,8 +13,19 @@ redirect_from:
 My name is (Gavin) Guanzhou Ke, and I am pursuing my doctoral degree in Information Management at Beijing Jiaotong University. I received my B.S. in Communication Engineering and M.S. in Systems Engineering from Wuyi University in 2019 and 2022, respectively. I’m currently working on multi-view (or modality) representation learning, especially incomplete view scenario. I’m focusing on designing the new fusion method to improve the expressive power of multi-view representation.
 
 
-🔥 News
+🎯 Interested
 ---
+Large Multimodal models, Missing modality completion, Embodied AI.
+
+
+🔥 Status
+---
+I expect to graduate in **June 2026**. I am looking for an internship or job in the field of **large multimodal model applications** or **embodied AI**. The working place is preferably close to **Shenzhen**, China. If you have any recommendations, please contact me. Thanks.
+
+
+📣 News
+---
+* <span style="color:red">[02/2025]</span>, one papers is accepted in CVPR 2025 (CCF A).
 * <span style="color:red">[12/2024]</span>, two papers are accepted in AAAI 2025 (CCF A).
 * <span style="color:red">[10/2024]</span>, as CSC visiting PhD student (1 year) at Singapore Management University.
 * <span style="color:red">[02/2024]</span>, as an intern in the AI4Science group at Microsoft Research Asia Shanghai.
@@ -41,5 +52,6 @@ My name is (Gavin) Guanzhou Ke, and I am pursuing my doctoral degree in Informat
 ---
 
 <ul>{% for post in site.selectedpubs reversed %}
-    {% include archive-single-cv.html %}
+    {% include publications-simple.html %}
+    <!-- {% include archive-single-cv.html %} -->
   {% endfor %}</ul>
