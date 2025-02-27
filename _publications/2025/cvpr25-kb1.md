@@ -5,7 +5,7 @@ date: 2025-06-11
 year: 2025
 pubinfo: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 2025'
 arch: https://guanzhouk.top/images/2025/cvpr25-kb1.jpg
-banner: https://guanzhouk.top/images2025/cvpr_2025_logo.jpg
+banner: https://guanzhouk.top/images/2025/cvpr_2025_logo.jpg
 code: 
 pdf: 
 rank: "CCF A"
