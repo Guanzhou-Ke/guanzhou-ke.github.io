@@ -7,6 +7,6 @@ pubinfo: 'IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR),
 arch: https://guanzhouk.top/images/2025/cvpr25-kb1.jpg
 banner: https://guanzhouk.top/images/2025/cvpr_2025_logo.jpg
 code: 
-pdf: 
+pdf: https://arxiv.org/pdf/2502.19834
 rank: "CCF A"
 ---
