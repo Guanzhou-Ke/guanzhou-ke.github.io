@@ -28,16 +28,16 @@ I expect to graduate in **June 2026**. I am looking for an internship or job in 
 
 <ul style="width: auto; height: 300px; overflow: auto">
 
-<li> <span style="color:red">[02/2025]</span>, one papers is accepted in CVPR 2025 (CCF A).
-<li> <span style="color:red">[12/2024]</span>, two papers are accepted in AAAI 2025 (CCF A).
-<li> <span style="color:red">[10/2024]</span>, as CSC visiting PhD student (1 year) at Singapore Management University.
-<li> <span style="color:red">[02/2024]</span>, as an intern in the AI4Science group at Microsoft Research Asia Shanghai.
-<li> <span style="color:red">[02/2024]</span>, one paper is accepted in CVPR 24 (CCF A).
-<li> <span style="color:red">[10/2023]</span>, one paper is accepted in Information Fusion.
-<li> <span style="color:red">[07/2023]</span>, one paper is accepted in ACM MM 2023. (CCF A)
-<li> <span style="color:red">[10/2022]</span>, one paper is accepted in ICDM Workshop 2022. (CCF B)
-<li> <span style="color:red">[09/2022]</span>, is studied at Beijing Jiaotong University. (Ph.D.)
-<li> <span style="color:red">[12/2021]</span>, one paper is accepted in IEEE Bigdata 2021. (CCF C)
+<li> <span style="color:red">[02/2025]</span>, one papers is accepted in CVPR 2025 (CCF A).</li>
+<li> <span style="color:red">[12/2024]</span>, two papers are accepted in AAAI 2025 (CCF A).</li>
+<li> <span style="color:red">[10/2024]</span>, as CSC visiting PhD student (1 year) at Singapore Management University.</li>
+<li> <span style="color:red">[02/2024]</span>, as an intern in the AI4Science group at Microsoft Research Asia Shanghai.</li>
+<li> <span style="color:red">[02/2024]</span>, one paper is accepted in CVPR 24 (CCF A).</li>
+<li> <span style="color:red">[10/2023]</span>, one paper is accepted in Information Fusion.</li>
+<li> <span style="color:red">[07/2023]</span>, one paper is accepted in ACM MM 2023. (CCF A)</li>
+<li> <span style="color:red">[10/2022]</span>, one paper is accepted in ICDM Workshop 2022. (CCF B)</li>
+<li> <span style="color:red">[09/2022]</span>, is studied at Beijing Jiaotong University. (Ph.D.)</li>
+<li> <span style="color:red">[12/2021]</span>, one paper is accepted in IEEE Bigdata 2021. (CCF C)</li>
 
 
 </ul>
