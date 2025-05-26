@@ -9,6 +9,8 @@ redirect_from:
 
 {% include base_path %}
 
+(**Download CV in PDF:** [EN](https://guanzhouk.top/files/guanzhou-ke-cv-en.pdf) / [中文](https://guanzhouk.top/files/guanzhou-ke-cv-cn.pdf))
+
 🎓 Education
 ======
 * (CSC) Visiting PhD Student in Computer Science, School of Computing and Information Systems, Singapore Management University, Singapore, 2024 - 2025, advisor: Prof. [Shengfeng He](http://www.shengfenghe.com/).
