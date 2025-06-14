@@ -20,7 +20,7 @@ Large Multimodal models, Missing modality completion, Embodied AI.
 
 🔥 Status
 ---
-I expect to graduate in **June 2026**. I am looking for an internship or job in the field of **large multimodal model applications**, especially on unified understanding and generation reasoning. The working place is preferably close to **Shenzhen**, China. If you have any recommendations, please contact me. Thanks.
+I expect to graduate in **June 2026**. I am looking for an internship or job in the field of large multimodal model applications, especially on **unified understanding and generation reasoning**. The working place is preferably close to **Shenzhen**, China. If you have any recommendations, please contact me. Thanks.
 
 
 📣 News
