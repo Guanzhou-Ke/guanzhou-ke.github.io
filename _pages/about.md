@@ -15,7 +15,7 @@ My name is (Gavin) Guanzhou Ke, and I am pursuing my doctoral degree in Informat
 
 🎯 Interested
 ---
-Large Multimodal models, Missing modality completion, Embodied AI.
+Unified Visual Understanding and Generation, Large Multimodal models, Missing modality completion.
 
 
 🔥 Status
@@ -64,4 +64,8 @@ I expect to graduate in **June 2026**. I am looking for an internship or job in 
     <!-- {% include archive-single-cv.html %} -->
   {% endfor %}</ul>
 
-<a href="https://clustrmaps.com/site/1c39f"  title="ClustrMaps"><img src="//www.clustrmaps.com/map_v2.png?d=6PhQno-uz8qYO3a_jzhJcRHooRKmewUkZxaFZw3oaGI&cl=ffffff" /></a>
+<div style="text-align: center;">
+  <a href="https://clustrmaps.com/site/1c39f" title="ClustrMaps">
+    <img src="//www.clustrmaps.com/map_v2.png?d=6PhQno-uz8qYO3a_jzhJcRHooRKmewUkZxaFZw3oaGI&cl=ffffff" />
+  </a>
+</div>
