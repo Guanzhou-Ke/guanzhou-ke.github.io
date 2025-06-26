@@ -64,4 +64,4 @@ I expect to graduate in **June 2026**. I am looking for an internship or job in 
     <!-- {% include archive-single-cv.html %} -->
   {% endfor %}</ul>
 
-<body><a href="https://clustrmaps.com/site/1c39f"  title="ClustrMaps"><img src="//www.clustrmaps.com/map_v2.png?d=6PhQno-uz8qYO3a_jzhJcRHooRKmewUkZxaFZw3oaGI&cl=ffffff" /></a></body>
+<a href="https://clustrmaps.com/site/1c39f"  title="ClustrMaps"><img src="//www.clustrmaps.com/map_v2.png?d=6PhQno-uz8qYO3a_jzhJcRHooRKmewUkZxaFZw3oaGI&cl=ffffff" /></a>
