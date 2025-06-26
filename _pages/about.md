@@ -28,6 +28,7 @@ I expect to graduate in **June 2026**. I am looking for an internship or job in 
 
 <ul style="width: auto; height: 300px; overflow: auto">
 
+<li> <span style="color:red">[06/2025]</span>, one papers is accepted in ICCV 2025 (CCF A).</li>
 <li> <span style="color:red">[02/2025]</span>, one papers is accepted in CVPR 2025 (CCF A).</li>
 <li> <span style="color:red">[12/2024]</span>, two papers are accepted in AAAI 2025 (CCF A).</li>
 <li> <span style="color:red">[10/2024]</span>, as CSC visiting PhD student (1 year) at Singapore Management University.</li>
