@@ -9,7 +9,7 @@ redirect_from:
 
 {% include base_path %}
 
-(**Download CV in PDF:** [EN](https://guanzhouk.top/files/guanzhou-ke-cv-en.pdf) / [中文](https://guanzhouk.top/files/guanzhou-ke-cv-cn.pdf))
+(**Download CV in PDF:** [EN](https://guanzhouk.top/files/guanzhou-ke-cv-en.pdf) / [中文](https://guanzhouk.top/files/guanzhouke-cv-cn-new.pdf))
 
 🎓 Education
 ======
