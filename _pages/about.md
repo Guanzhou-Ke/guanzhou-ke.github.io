@@ -98,43 +98,8 @@ I expect to graduate from **Beijing Jiaotong University** in **June 2026**. I am
 You can also find my articles on <u><a href="{{ site.author.googlescholar }}">my Google Scholar profile</a>.</u>
 {% endif %}
 
-{% include base_path %}
-
 <div style="width: auto; max-height: 520px; overflow: auto; padding-right: 0.5rem;">
-
-{% assign v2025 = true %}
-{% assign v2024 = true %}
-{% assign v2023 = true %}
-{% assign early = true %}
-{% assign early_year = 2022 %}
-
-{% for post in site.publications reversed %}
-
-  {% if post.year == 2025 and v2025 %}
-  {% assign v2025 = false %}
-<h3>2025</h3>
-  {% endif %}
-
-
-  {% if post.year == 2024 and v2024 %}
-  {% assign v2024 = false %}
-<h3>2024</h3>
-  {% endif %}
-
-
-  {% if post.year == 2023 and v2023 %}
-  {% assign v2023 = false %}
-<h3>2023</h3>
-  {% endif %}
-
-  {% if post.year <= early_year and early %}
-  {% assign early = false %}
-<h3>Early Publication</h3>
-  {% endif %}
-
-  {% include publications-simple.html %}
-{% endfor %}
-
+{% include publications-list-by-year.html %}
 </div>
 
 

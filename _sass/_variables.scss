@@ -117,6 +117,13 @@ $large                      : 925px !default;
 $x-large                    : 1280px !default;
 
 /*
+   Layout — main vs author sidebar (large screens only)
+   ========================================================================== */
+
+$layout-main-percent       : 80% !default;
+$layout-sidebar-percent    : 20% !default;
+
+/*
    Grid
    ========================================================================== */
 

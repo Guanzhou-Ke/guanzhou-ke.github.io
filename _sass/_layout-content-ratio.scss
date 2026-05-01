@@ -1,0 +1,34 @@
+/* ==========================================================================
+   Main / sidebar width ratio (fluid ~80% content when sidebar present)
+   Overrides Susy floats from _page, _archive, _sidebar.
+   ========================================================================== */
+
+@include breakpoint($large) {
+  #main:has(> .sidebar) {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    column-gap: 1.25rem;
+  }
+
+  #main:has(> .sidebar) > .sidebar {
+    float: none !important;
+    width: $layout-sidebar-percent !important;
+    max-width: $layout-sidebar-percent !important;
+    flex: 0 0 $layout-sidebar-percent;
+    margin-right: 0 !important;
+    margin-bottom: 0;
+  }
+
+  #main:has(> .sidebar) > .page,
+  #main:has(> .sidebar) > .archive {
+    float: none !important;
+    width: $layout-main-percent !important;
+    max-width: $layout-main-percent !important;
+    flex: 1 1 $layout-main-percent;
+    min-width: 0; /* allow flex child to shrink; fixes overflow */
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+  }
+}

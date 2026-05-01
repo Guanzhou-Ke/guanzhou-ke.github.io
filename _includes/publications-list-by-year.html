@@ -1,0 +1,14 @@
+{% comment %}
+  Renders site.publications grouped by `year` (descending), items within each year by `date` (descending).
+  Requires `post` loop variable for publications-simple.html — set per inner iteration.
+{% endcomment %}
+{% assign pub_year_groups = site.publications | group_by: 'year' | sort: 'name' | reverse %}
+{% for yg in pub_year_groups %}
+  {% if yg.name %}
+<h3>{{ yg.name }}</h3>
+    {% assign posts_this_year = yg.items | sort: 'date' | reverse %}
+    {% for post in posts_this_year %}
+      {% include publications-simple.html %}
+    {% endfor %}
+  {% endif %}
+{% endfor %}
