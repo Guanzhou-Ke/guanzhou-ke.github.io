@@ -65,6 +65,7 @@ I expect to graduate from **Beijing Jiaotong University** in **June 2026**. I am
 <ul style="width: auto; height: 300px; overflow: auto">
 
 <li> <span style="color:red">[05/2026]</span>, one papers is accepted in ICML 2026 (CCF A).</li>
+<li> <span style="color:red">[03/2026]</span>, one papers is accepted in CVPR 2026 Findings (CCF A).</li>
 <li> <span style="color:red">[06/2025]</span>, one papers is accepted in ICCV 2025 (CCF A).</li>
 <li> <span style="color:red">[02/2025]</span>, one papers is accepted in CVPR 2025 (CCF A).</li>
 <li> <span style="color:red">[12/2024]</span>, two papers are accepted in AAAI 2025 (CCF A).</li>
