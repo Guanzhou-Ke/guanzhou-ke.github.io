@@ -7,10 +7,10 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Home"
+title                    : "Guanzhou Ke (柯冠舟)"
 title_separator          : "-"
 name                     : &name "(Gavin) Guanzhou Ke"
-description              : &description "Multi-modal (-view) Learning / Missing Multi-modality Method / Large Models"
+description              : &description "Focus on multi-modal learning with missing modalities; UAV intelligence (VLN/VLA)."
 url                      : https://guanzhouk.top # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "guanzhou-ke/guanzhou-ke.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Guanzhou Ke"
   avatar           : "profile.webp"
-  bio              : "Multi-modal (-view) Learning / Missing Multi-modality Method / Large Models"
+  bio              : *description
   location         : "Beijing, China"
   employer         :
   pubmed           : 
@@ -274,6 +274,7 @@ whitelist:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jekyll-redirect-from
   - jemoji
 
 

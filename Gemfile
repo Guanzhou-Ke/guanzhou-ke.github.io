@@ -1,5 +1,11 @@
 source "https://rubygems.org"
 
+# Local dev notes (Apple system Ruby 2.6):
+# - ffi 1.17+ needs Ruby 3+; pin below keeps a 2.6-compatible ffi for `bundle install`.
+# - Avoid sudo: `bundle config path vendor/bundle` then `bundle install` (gems go under vendor/bundle).
+# Better long-term: `brew install ruby` and use Ruby 3.x on your PATH.
+gem "ffi", "~> 1.15.5"
+
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:

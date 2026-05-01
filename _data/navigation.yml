@@ -1,14 +1,2 @@
-# main links links
-main:
-  - title: "Publications"
-    url: /publications/
- 
-  - title: "CV"
-    url: /cv/
-
-  # - title: "Talks"
-  #   url: /talks/
-
-  # - title: "Blog Posts"
-  #   url: /year-archive/
-    
+# Single-page site: masthead shows site title only (no section links).
+main: []
