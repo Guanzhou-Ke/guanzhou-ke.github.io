@@ -136,12 +136,6 @@ You can also find my articles on <u><a href="{{ site.author.googlescholar }}">my
 
 </div>
 
-<div style="text-align: center;">
-  <a href="https://clustrmaps.com/site/1c39f" title="ClustrMaps">
-    <img src="//www.clustrmaps.com/map_v2.png?d=6PhQno-uz8qYO3a_jzhJcRHooRKmewUkZxaFZw3oaGI&cl=ffffff" />
-  </a>
-</div>
-
 
 🤝 Services
 ---
@@ -152,3 +146,9 @@ You can also find my articles on <u><a href="{{ site.author.googlescholar }}">my
 * Conference Reviewer:
   * ACM MM 2023 & 24
   * AAAI 2023
+
+<div style="text-align: center;">
+  <a href="https://clustrmaps.com/site/1c39f" title="ClustrMaps">
+    <img src="//www.clustrmaps.com/map_v2.png?d=6PhQno-uz8qYO3a_jzhJcRHooRKmewUkZxaFZw3oaGI&cl=ffffff" />
+  </a>
+</div>
