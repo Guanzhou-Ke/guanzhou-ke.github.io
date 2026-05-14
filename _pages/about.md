@@ -27,6 +27,30 @@ Embodied AI (UAV), Unified Visual Understanding and Generation, Large Multimodal
 I expect to graduate from **Beijing Jiaotong University** in **June 2026**. I am currently with **Avant Robotics** in **Shenzhen**, working on **UAV intelligence**—including **high-quality benchmarks** and **stronger autonomous-drone algorithms** that combine **VLN** and **VLA** (and related multimodal planning and control). **Colleagues and peers in similar areas are very welcome to reach out; I enjoy exchanging ideas.**
 
 
+📣 News
+---
+
+<ul style="width: auto; height: 300px; overflow: auto">
+
+<li> <span style="color:red">[05/2026]</span>, recognized as an ICML 2026 Gold Reviewer.</li>
+<li> <span style="color:red">[05/2026]</span>, one paper is accepted in ICML 2026 (CCF A).</li>
+<li> <span style="color:red">[03/2026]</span>, one papers is accepted in CVPR 2026 Findings (CCF A).</li>
+<li> <span style="color:red">[06/2025]</span>, one papers is accepted in ICCV 2025 (CCF A).</li>
+<li> <span style="color:red">[02/2025]</span>, one papers is accepted in CVPR 2025 (CCF A).</li>
+<li> <span style="color:red">[12/2024]</span>, two papers are accepted in AAAI 2025 (CCF A).</li>
+<li> <span style="color:red">[10/2024]</span>, as CSC visiting PhD student (1 year) at Singapore Management University.</li>
+<li> <span style="color:red">[02/2024]</span>, as an intern in the AI4Science group at Microsoft Research Asia Shanghai.</li>
+<li> <span style="color:red">[02/2024]</span>, one paper is accepted in CVPR 24 (CCF A).</li>
+<li> <span style="color:red">[10/2023]</span>, one paper is accepted in Information Fusion.</li>
+<li> <span style="color:red">[07/2023]</span>, one paper is accepted in ACM MM 2023. (CCF A)</li>
+<li> <span style="color:red">[10/2022]</span>, one paper is accepted in ICDM Workshop 2022. (CCF B)</li>
+<li> <span style="color:red">[09/2022]</span>, is studied at Beijing Jiaotong University. (Ph.D.)</li>
+<li> <span style="color:red">[12/2021]</span>, one paper is accepted in IEEE Bigdata 2021. (CCF C)</li>
+
+
+</ul>
+
+
 💼 Internships
 ---
 
@@ -59,29 +83,6 @@ I expect to graduate from **Beijing Jiaotong University** in **June 2026**. I am
 </div>
 
 
-📣 News
----
-
-<ul style="width: auto; height: 300px; overflow: auto">
-
-<li> <span style="color:red">[05/2026]</span>, one papers is accepted in ICML 2026 (CCF A).</li>
-<li> <span style="color:red">[03/2026]</span>, one papers is accepted in CVPR 2026 Findings (CCF A).</li>
-<li> <span style="color:red">[06/2025]</span>, one papers is accepted in ICCV 2025 (CCF A).</li>
-<li> <span style="color:red">[02/2025]</span>, one papers is accepted in CVPR 2025 (CCF A).</li>
-<li> <span style="color:red">[12/2024]</span>, two papers are accepted in AAAI 2025 (CCF A).</li>
-<li> <span style="color:red">[10/2024]</span>, as CSC visiting PhD student (1 year) at Singapore Management University.</li>
-<li> <span style="color:red">[02/2024]</span>, as an intern in the AI4Science group at Microsoft Research Asia Shanghai.</li>
-<li> <span style="color:red">[02/2024]</span>, one paper is accepted in CVPR 24 (CCF A).</li>
-<li> <span style="color:red">[10/2023]</span>, one paper is accepted in Information Fusion.</li>
-<li> <span style="color:red">[07/2023]</span>, one paper is accepted in ACM MM 2023. (CCF A)</li>
-<li> <span style="color:red">[10/2022]</span>, one paper is accepted in ICDM Workshop 2022. (CCF B)</li>
-<li> <span style="color:red">[09/2022]</span>, is studied at Beijing Jiaotong University. (Ph.D.)</li>
-<li> <span style="color:red">[12/2021]</span>, one paper is accepted in IEEE Bigdata 2021. (CCF C)</li>
-
-
-</ul>
-
-
 
 📄 Selected Publications
 ---
@@ -106,12 +107,9 @@ You can also find my articles on <u><a href="{{ site.author.googlescholar }}">my
 🤝 Services
 ---
 
-* Journal Reviewer:
-  * IEEE TMM / T-CSVT / T-NNLS
-  * Information Sciences
-* Conference Reviewer:
-  * ACM MM 2023 & 24
-  * AAAI 2023
+* Journals: IEEE TMM, T-CSVT, T-NNLS, Neurocomputing, ...
+* Conferences: NeurIPS, CVPR, ICML (Gold Reviewer), AAAI, ACM MM, …
+
 
 <div style="text-align: center;">
   <a href="https://clustrmaps.com/site/1c39f" title="ClustrMaps">
