@@ -1,0 +1,92 @@
+/* ==========================================================================
+   Home / about page — clearer hierarchy, light “card” scroll areas
+   (scoped under .home-profile)
+   ========================================================================== */
+
+.page__content .home-profile {
+  font-size: 1.02rem;
+  line-height: 1.65;
+  letter-spacing: 0.01em;
+
+  h2 {
+    margin: 2.25rem 0 0.85rem;
+    padding: 0.45rem 0.75rem 0.45rem 0.9rem;
+    border-left: 4px solid $info-color;
+    border-bottom: none !important;
+    border-radius: 0 8px 8px 0;
+    background: linear-gradient(
+      90deg,
+      mix(#fff, $info-color, 88%),
+      mix(#fff, $info-color, 96%)
+    );
+    box-shadow: 0 1px 0 rgba($text-color, 0.06);
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: mix(#000, $text-color, 12%);
+  }
+
+  h2:first-child {
+    margin-top: 0;
+  }
+
+  p {
+    margin-bottom: 0.9rem;
+  }
+
+  .home-scroll {
+    margin: 0.75rem 0 1.25rem;
+    padding: 0.85rem 1rem;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+    background: mix(#fff, $lighter-gray, 55%);
+    box-shadow: $box-shadow;
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+  }
+
+  .home-scroll--news {
+    max-height: 300px;
+  }
+
+  .home-scroll--intern {
+    max-height: 300px;
+  }
+
+  .home-scroll--pubs {
+    max-height: 520px;
+  }
+
+  .home-scroll ul {
+    margin-bottom: 0;
+  }
+
+  .news-date {
+    color: mix(#fff, $danger-color, 12%);
+    font-weight: 600;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+
+  .home-profile__scholar {
+    margin: 0.35rem 0 0.75rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: $border-radius;
+    background: mix(#fff, $info-color, 92%);
+    border: 1px solid mix(#fff, $info-color, 70%);
+    font-size: 0.95rem;
+  }
+
+  .home-profile__map {
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    text-align: center;
+    border-top: 1px solid $border-color;
+
+    img {
+      max-width: min(100%, 420px);
+      height: auto;
+      border-radius: $border-radius;
+      box-shadow: $box-shadow;
+    }
+  }
+}
