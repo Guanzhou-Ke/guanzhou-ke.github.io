@@ -30,6 +30,8 @@ I expect to graduate from **Beijing Jiaotong University** in **June 2026**. I am
 
 <div class="home-scroll home-scroll--news" markdown="0">
 <ul>
+
+<li><span class="news-date">[05/2026]</span> One paper accepted at T-PAMI (CCF A).</li>
 <li><span class="news-date">[05/2026]</span> Recognized as an <strong>ICML 2026 Gold Reviewer</strong>.</li>
 <li><span class="news-date">[05/2026]</span> One paper accepted at ICML 2026 (CCF A).</li>
 <li><span class="news-date">[03/2026]</span> One paper accepted at CVPR 2026 Findings (CCF A).</li>
