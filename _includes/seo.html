@@ -25,7 +25,7 @@
   {% assign seo_description = seo_description | markdownify | strip_html | strip_newlines | escape_once %}
 {% endif %}
 
-{% assign seo_author = page.author | default: page.author[0] | default: site.author[0] %}
+{% assign seo_author = site.data.profile.author %}
 {% if seo_author %}
   {% if seo_author.twitter %}
     {% assign seo_author_twitter = seo_author.twitter %}
@@ -48,7 +48,7 @@
   <meta property="og:url" content="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
 {% endif %}
 
-{% if page.excerpt %}
+{% if seo_description %}
   <meta property="og:description" content="{{ seo_description }}">
 {% endif %}
 
@@ -87,6 +87,8 @@
   <meta property="og:image" content="{% if page.header.image contains "://" %}{{ page.header.image }}{% else %}{{ page.header.image | prepend: "/images/" | prepend: base_path }}{% endif %}">
 {% elsif page.header.overlay_image %}
   <meta property="og:image" content="{% if page.header.overlay_image contains "://" %}{{ page.header.overlay_image }}{% else %}{{ page.header.overlay_image | prepend: "/images/" | prepend: base_path }}{% endif %}">
+{% elsif site.og_image %}
+  <meta property="og:image" content="{{ site.og_image | prepend: '/images/' | prepend: seo_url }}">
 {% endif %}
 
 {% if page.date %}

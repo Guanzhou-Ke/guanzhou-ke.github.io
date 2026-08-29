@@ -1,12 +1,12 @@
 ---
 title: "CONAN: Contrastive Fusion Networks for Multi-view Clustering"
 collection: publications
-permalink: /publications/conan-contrastive-fusion-networks-for-multi-view-clustering
+permalink: /publications/conan-contrastive-fusion-networks-for-multi-view-clustering/
 authors: '<b>Guanzhou Ke</b>, Zhiyong Hong, Zhiqiang Zeng, Zeyi Liu, Yangjie Sun, and Yannan Xie'
 date: 2021-12-01
 year: 2021
 pubinfo: 'IEEE International Conference on Big Data (Big Data)'
-arch: https://guanzhouk.top/images/conan-arch.png
+arch: /images/conan-arch.png
 code: https://github.com/Guanzhou-Ke/conan
 pdf: https://guanzhouk.top/files/conan.pdf
 rank: "CCF C"

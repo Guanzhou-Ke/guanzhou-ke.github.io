@@ -5,9 +5,11 @@ date: 2023-07-26
 year: 2023
 pubinfo: 'The 31st ACM International Conference on Multimedia (ACM MM 2023)'
 code: https://github.com/Guanzhou-Ke/DMRIB
-arch: https://guanzhouk.top/images/dmrib-arch.png
+arch: /images/dmrib-arch.png
 pdf: https://guanzhouk.top/files/dmrib.pdf
 rank: "CCF A"
+featured_order: 4
+homepage_contribution: "Learns interpretable shared and specific multi-view representations without relying on strong inductive bias."
 ---
 
 ![Arch](https://ihades.cn/images/dmrib-arch.png)

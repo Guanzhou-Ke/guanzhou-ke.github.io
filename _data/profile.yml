@@ -1,0 +1,32 @@
+# Public personal facts and links used across the site.
+# Keep unconfirmed company wording and non-public metrics out of this file.
+author:
+  name: "Guanzhou Ke"
+  display_name: "Guanzhou Ke (柯冠舟)"
+  avatar: "profile.webp"
+  bio: "Active embodied intelligence under partial observability."
+  location: "Shenzhen, China"
+  employer: "Embodied AI Researcher · Avant Robotics"
+  email: "guanzhouk@gmail.com"
+  github: "Guanzhou-Ke"
+  googlescholar: "https://scholar.google.com/citations?user=CKCaMLMAAAAJ&hl=en"
+  orcid: "https://orcid.org/0000-0002-1812-367X"
+  researchgate: "https://www.researchgate.net/profile/Guanzhou-Ke-2"
+
+positioning: "I study active embodied intelligence under partial observability, with a focus on active perception, world models, and self-improving agents. My current work is grounded in UAV autonomy and inspection."
+positioning_zh: "研究不完整观测下的主动具身智能，重点关注主动感知、世界模型与自进化智能体；当前工作以无人机自主与巡检为主要落地场景。"
+
+education:
+  phd: "Ph.D., Beijing Jiaotong University"
+  visiting: "CSC Visiting Ph.D. Researcher, Singapore Management University"
+
+current_role:
+  organization: "Avant Robotics"
+  location: "Shenzhen, China"
+  start: "December 2025"
+  public_title: "Embodied AI Researcher"
+
+links:
+  research: "/research/"
+  publications: "/publications/"
+  cv: "/cv/"

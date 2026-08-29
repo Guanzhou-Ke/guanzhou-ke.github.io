@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Guanzhou Ke (柯冠舟)"
 title_separator          : "-"
 name                     : &name "(Gavin) Guanzhou Ke"
-description              : &description "Focus on multi-modal learning with missing modalities; UAV intelligence (VLN/VLA)."
+description              : &description "Active embodied intelligence under partial observability, focused on active perception, world models, and self-improving agents, with current work grounded in UAV autonomy and inspection."
 url                      : https://guanzhouk.top # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "guanzhou-ke/guanzhou-ke.github.io"
@@ -62,13 +62,16 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 :  # Open Graph/Twitter default site image
+og_image                 : "profile.webp"
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  type                   : Person
+  name                   : "Guanzhou Ke"
+  links:
+    - "https://scholar.google.com/citations?user=CKCaMLMAAAAJ&hl=en"
+    - "https://orcid.org/0000-0002-1812-367X"
+    - "https://github.com/Guanzhou-Ke"
 
 
 # Analytics
@@ -76,45 +79,6 @@ analytics:
   provider               :  "google-universal" # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          :
-
-
-# Site Author
-author:
-  name             : "Guanzhou Ke"
-  avatar           : "profile.webp"
-  bio              : *description
-  location         : "Beijing, China"
-  employer         :
-  pubmed           : 
-  googlescholar    : "https://scholar.google.com/citations?user=CKCaMLMAAAAJ&hl=en&authuser=1&oi=ao"
-  email            : "guanzhouk@gmail.com"
-  researchgate     : "https://www.researchgate.net/profile/Guanzhou-Ke-2"
-  uri              :
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  flickr           :
-  facebook         :
-  foursquare       :
-  github           : "Guanzhou-Ke"
-  google_plus      :
-  keybase          :
-  instagram        :
-  impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
-  lastfm           :
-  linkedin         :
-  orcid            : "https://orcid.org/0000-0002-1812-367X"
-  pinterest        :
-  soundcloud       :
-  stackoverflow    : # http://stackoverflow.com/users/123456/username
-  steam            :
-  tumblr           :
-  twitter          : 
-  vine             :
-  weibo            :
-  xing             :
-  youtube          :
-  wikipedia        :
 
 
 # Reading Files
