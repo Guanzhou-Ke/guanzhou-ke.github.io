@@ -3,152 +3,135 @@ permalink: /
 title: "Guanzhou Ke"
 excerpt: "Active embodied intelligence under partial observability, focused on active perception, world models, and self-improving agents, with current work grounded in UAV autonomy and inspection."
 author_profile: true
+locale: en-US
 redirect_from:
   - /about/
   - /about.html
 ---
 
-<div class="home-profile">
-  <section class="home-hero" aria-labelledby="home-title">
-    <p class="home-hero__eyebrow">Guanzhou Ke · 柯冠舟</p>
-    <h1 id="home-title">Active embodied intelligence<br />under partial observability</h1>
-    <p class="home-hero__themes">Active perception <span aria-hidden="true">·</span> World models <span aria-hidden="true">·</span> Self-improving agents</p>
-    <p class="home-hero__positioning">{{ site.data.profile.positioning }}</p>
-    <nav class="home-actions" aria-label="Primary links">
-      <a class="btn btn--primary" href="{{ '/research/' | relative_url }}">Research</a>
-      <a class="btn" href="{{ '/publications/' | relative_url }}">Publications</a>
-      <a class="btn" href="{{ '/cv/' | relative_url }}">CV</a>
-      <a class="btn" href="{{ site.data.profile.author.googlescholar }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-      <a class="btn" href="https://github.com/{{ site.data.profile.author.github }}" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </nav>
-  </section>
+<div class="home-profile" markdown="1">
 
-  <section id="bio" class="home-section" aria-labelledby="bio-title">
-    <h2 id="bio-title">Bio</h2>
-    <p>I am Guanzhou Ke, an Embodied AI Researcher at Avant Robotics in Shenzhen, working on active embodied intelligence under partial observability. My current work studies how autonomous drones can actively acquire task-relevant evidence, learn from difficult simulated and real-world scenarios, and improve through an evaluation–data–training loop.</p>
-    <p>I received my Ph.D. from Beijing Jiaotong University and was a CSC visiting Ph.D. researcher at Singapore Management University. My earlier research on multi-view representation learning and missing-modality completion provides the foundation for studying decision-making under partial observability.</p>
-  </section>
+[中文主页]({{ '/zh/' | relative_url }})
 
-  <section id="agenda" class="home-section" aria-labelledby="agenda-title">
-    <div class="section-heading">
-      <div>
-        <p class="section-kicker">Research agenda</p>
-        <h2 id="agenda-title">A closed loop for reliable autonomy</h2>
-      </div>
-      <a href="{{ '/research/' | relative_url }}">Explore the agenda →</a>
-    </div>
-    <div class="agenda-grid">
-      <article class="agenda-card">
-        <span class="status-label">Ongoing research</span>
-        <h3>Active Perception for UAV Inspection</h3>
-        <p>How should a drone coordinate wide-field cameras, a high-resolution gimbal, and body motion to obtain sufficient evidence for an inspection task?</p>
-      </article>
-      <article class="agenda-card">
-        <span class="card-number">02</span>
-        <h3>Self-evolving Simulation and Data Engines</h3>
-        <p>Building evaluation-driven loops that identify failure modes, generate targeted interaction data, and improve navigation and action models.</p>
-      </article>
-      <article class="agenda-card">
-        <span class="card-number">03</span>
-        <h3>Reliable Multimodal Intelligence</h3>
-        <p>Learning and reasoning when observations are incomplete, missing, uncertain, or viewpoint-dependent.</p>
-      </article>
-    </div>
-  </section>
+## 👋 Profile
 
-  <section id="featured" class="home-section" aria-labelledby="featured-title">
-    <p class="section-kicker">Featured systems and research</p>
-    <h2 id="featured-title">From evaluation to evidence</h2>
-    <div class="featured-list">
-      <article class="featured-item">
-        <div class="featured-item__index">01</div>
-        <div>
-          <h3>Simulation-driven embodied learning loop</h3>
-          <p><strong>Problem.</strong> UAV policies need repeatable evaluation across navigation, exploration, object search, and obstacle-avoidance tasks—not only more undirected data.</p>
-          <p><strong>Individual role.</strong> As an Embodied AI Researcher, I work on the simulation, evaluation, and data-engine pipeline that connects hard-case discovery, targeted interaction collection, and model improvement across VLN/VLA, object search, exploration, navigation, and obstacle avoidance.</p>
-          <p class="evidence-note"><strong>Team evidence.</strong> The resulting team system produces 39 million valid simulated interaction steps per month, improves sampling throughput by 3× on a single RTX 5090, and supports a 0.8B world/action model reporting 74% navigation-and-avoidance success.</p>
-        </div>
-      </article>
-      <article class="featured-item">
-        <div class="featured-item__index">02</div>
-        <div>
-          <h3>Real-world-grounded scenario construction</h3>
-          <p><strong>Problem.</strong> Useful simulated environments must preserve real-world coordinates, task executability, and repeatability rather than act as generic text-to-3D assets.</p>
-          <p><strong>Contribution.</strong> Current work studies geospatially aligned scenario construction and the return of evaluation failures into the data loop.</p>
-          <p class="evidence-note"><strong>Disclosure boundary.</strong> Specific scene sources and named locations remain private.</p>
-        </div>
-      </article>
-      <article class="featured-item featured-item--ongoing">
-        <div class="featured-item__index">03</div>
-        <div>
-          <span class="status-label">Ongoing research</span>
-          <h3>Active evidence acquisition for UAV inspection</h3>
-          <p><strong>Question.</strong> When evidence is incomplete, how should a UAV choose what to inspect next, where to move, and when enough visual evidence has been gathered?</p>
-          <p><strong>Current direction.</strong> Jointly reason over viewpoint, sensing resolution, gimbal control, latency, bandwidth, and safety constraints. No completed benchmark or public system is claimed.</p>
-        </div>
-      </article>
-    </div>
-  </section>
+I am **Guanzhou Ke (柯冠舟)**, an **Embodied AI Researcher at Avant Robotics** in Shenzhen. I study active embodied intelligence under partial observability, with a focus on **active perception, world models, and self-improving agents**. My current work is grounded in **UAV autonomy and inspection**.
 
-  <section id="selected-publications" class="home-section" aria-labelledby="selected-publications-title">
-    <div class="section-heading">
-      <div>
-        <p class="section-kicker">Selected publications</p>
-        <h2 id="selected-publications-title">Foundations for partial observability</h2>
-      </div>
-      <a href="{{ '/publications/' | relative_url }}">View all publications →</a>
-    </div>
-    <div class="publication-grid">
-      {% assign featured_pubs = site.publications | where_exp: "post", "post.featured_order" | sort: "featured_order" %}
-      {% for post in featured_pubs %}
-        {% include publication-card.html post=post %}
-      {% endfor %}
-    </div>
-  </section>
+My research asks how embodied agents can actively acquire task-relevant evidence, learn from difficult simulated and real-world scenarios, and improve through an evaluation–data–training loop. I received my **Ph.D. from Beijing Jiaotong University** and was a **CSC visiting Ph.D. researcher at Singapore Management University**. My earlier work on multi-view representation learning and missing-modality completion provides the foundation for reasoning and action under incomplete observations.
 
-  <section id="news" class="home-section" aria-labelledby="news-title">
-    <p class="section-kicker">Selected news</p>
-    <h2 id="news-title">Recent milestones</h2>
-    <ol class="news-list">
-      <li><time datetime="2026-05">May 2026</time><span>Paper accepted at IEEE T-PAMI.</span></li>
-      <li><time datetime="2026-05">May 2026</time><span>Recognized as an ICML 2026 Gold Reviewer.</span></li>
-      <li><time datetime="2026-05">May 2026</time><span>Paper accepted at ICML 2026.</span></li>
-      <li><time datetime="2026-03">March 2026</time><span>Paper accepted to the CVPR 2026 Findings track.</span></li>
-      <li><time datetime="2025-02">February 2025</time><span>Knowledge Bridger accepted at CVPR 2025.</span></li>
-    </ol>
-  </section>
+**Links:** [Google Scholar]({{ site.data.profile.author.googlescholar }}) · [ORCID]({{ site.data.profile.author.orcid }}) · [GitHub](https://github.com/{{ site.data.profile.author.github }}) · [ResearchGate]({{ site.data.profile.author.researchgate }}) · [Email](mailto:{{ site.data.profile.author.email }})
 
-  <section id="experience" class="home-section" aria-labelledby="experience-title">
-    <p class="section-kicker">Experience and service</p>
-    <h2 id="experience-title">Research across systems and learning</h2>
-    <div class="experience-grid">
-      <div>
-        <h3>Experience</h3>
-        <ul class="compact-list">
-          <li><strong>Avant Robotics</strong>, Embodied AI Researcher, Shenzhen <span>· Dec. 2025–present</span><br /><span class="todo-note">Active embodied intelligence, world/action models, data engines, and UAV autonomy.</span></li>
-          <li><strong>Microsoft Research Asia</strong>, Research Intern <span>· Feb.–Oct. 2024</span></li>
-          <li><strong>Institute of Automation, CAS</strong>, Research Intern <span>· Jun.–Dec. 2023</span></li>
-          <li><strong>Singapore Management University</strong>, CSC Visiting Ph.D. Researcher <span>· Oct. 2024–Oct. 2025</span></li>
-        </ul>
-      </div>
-      <div>
-        <h3>Service</h3>
-        <p>Reviewer for journals including IEEE TMM, T-CSVT, and T-NNLS, and conferences including NeurIPS, CVPR, ICML, AAAI, and ACM MM.</p>
-      </div>
-    </div>
-  </section>
+## 🎯 Research Agenda
 
-  <section id="contact" class="home-section contact-panel" aria-labelledby="contact-title">
-    <div>
-      <p class="section-kicker">Contact</p>
-      <h2 id="contact-title">Let’s exchange ideas</h2>
-      <p>I welcome conversations about UAV autonomy, active perception, simulation and data engines, and reliable multimodal learning.</p>
-    </div>
-    <div class="contact-links">
-      <a href="mailto:{{ site.data.profile.author.email }}">Email</a>
-      <a href="{{ site.data.profile.author.googlescholar }}" target="_blank" rel="noopener noreferrer">Google Scholar</a>
-      <a href="{{ site.data.profile.author.orcid }}" target="_blank" rel="noopener noreferrer">ORCID</a>
-      <a href="https://github.com/{{ site.data.profile.author.github }}" target="_blank" rel="noopener noreferrer">GitHub</a>
-    </div>
-  </section>
+1. **Active Perception for UAV Inspection — Ongoing research.** How should a drone coordinate wide-field cameras, a high-resolution gimbal, and body motion to decide what, where, and when to observe under viewpoint, bandwidth, latency, and safety constraints?
+2. **Self-evolving Simulation and Data Engines.** Build evaluation-driven loops that identify failure modes, generate targeted interaction data, and improve navigation and action models.
+3. **Reliable Multimodal Intelligence under Partial Observability.** Learn and reason when observations are incomplete, missing, uncertain, or viewpoint-dependent, connecting prior multimodal work with embodied reasoning and action.
+
+## 🚁 Current Systems and Research
+
+### Simulation-driven embodied learning loop
+
+As an Embodied AI Researcher, I work on the simulation, evaluation, and data-engine pipeline that connects hard-case discovery, targeted interaction collection, and model improvement across VLN/VLA, object search, exploration, navigation, and obstacle avoidance.
+
+The resulting **team system** produces **39 million valid simulated interaction steps per month**, improves sampling throughput by **3× on a single RTX 5090**, and supports a **0.8B world/action model reporting 74% navigation-and-avoidance success**. These figures describe the integrated team system rather than an individual result.
+
+### Real-world-grounded scenario construction
+
+I work on geospatially aligned scenario construction using real-world coordinates and aerial observations, emphasizing task executability, repeatability, evaluation, and the return of failure cases into the data loop. Specific scene sources and named locations remain private.
+
+### Active evidence acquisition for UAV inspection
+
+This is an **ongoing research agenda**, not a completed benchmark or public system. The goal is to jointly reason over viewpoint, sensing resolution, gimbal control, body motion, latency, bandwidth, and safety, so a UAV can determine what evidence is missing and when enough evidence has been gathered.
+
+## 📣 News
+
+<div class="home-scroll home-scroll--news" markdown="0">
+<ul>
+<li><span class="news-date">[05/2026]</span> One paper accepted at IEEE T-PAMI.</li>
+<li><span class="news-date">[05/2026]</span> Recognized as an <strong>ICML 2026 Gold Reviewer</strong>.</li>
+<li><span class="news-date">[05/2026]</span> One paper accepted at ICML 2026.</li>
+<li><span class="news-date">[03/2026]</span> One paper accepted to the CVPR 2026 Findings track.</li>
+<li><span class="news-date">[06/2025]</span> One paper accepted at ICCV 2025.</li>
+<li><span class="news-date">[02/2025]</span> Knowledge Bridger accepted at CVPR 2025.</li>
+<li><span class="news-date">[12/2024]</span> Two papers accepted at AAAI 2025.</li>
+<li><span class="news-date">[10/2024]</span> Started a one-year CSC visiting Ph.D. appointment at Singapore Management University.</li>
+<li><span class="news-date">[02/2024]</span> Joined Microsoft Research Asia as a research intern.</li>
+<li><span class="news-date">[02/2024]</span> MRDD accepted at CVPR 2024.</li>
+<li><span class="news-date">[10/2023]</span> One paper accepted in Information Fusion.</li>
+<li><span class="news-date">[07/2023]</span> DMRIB accepted at ACM MM 2023.</li>
+<li><span class="news-date">[10/2022]</span> One paper accepted at the ICDM 2022 Workshop.</li>
+<li><span class="news-date">[09/2022]</span> Started Ph.D. studies at Beijing Jiaotong University.</li>
+<li><span class="news-date">[12/2021]</span> One paper accepted at IEEE BigData 2021.</li>
+</ul>
+</div>
+
+## 💼 Experience
+
+<div class="home-scroll home-scroll--intern" markdown="0">
+<ul>
+<li><strong>12/2025 – Present: Embodied AI Researcher</strong>
+  <ul>
+  <li>Avant Robotics, Shenzhen, China.</li>
+  <li>Active embodied intelligence, simulation-based evaluation, data engines, world/action models, and UAV autonomy.</li>
+  <li>Mentor: <a href="https://zhenguol.github.io/" target="_blank" rel="noopener noreferrer">Zhenguo Li</a>.</li>
+  </ul>
+</li>
+<li><strong>02/2024 – 10/2024: Research Intern</strong>
+  <ul>
+  <li>Microsoft Research Asia, Shanghai AI/ML Group.</li>
+  <li>Multimodal medical report generation and hallucination mitigation.</li>
+  <li>Mentor: <a href="https://www.microsoft.com/en-us/research/people/xinyangjiang/" target="_blank" rel="noopener noreferrer">Xinyang Jiang</a>.</li>
+  </ul>
+</li>
+<li><strong>06/2023 – 12/2023: Research Intern</strong>
+  <ul>
+  <li>Institute of Automation, Chinese Academy of Sciences.</li>
+  <li>Multimodal deepfake detection across visual, textual, and audio signals.</li>
+  <li>Mentor: <a href="http://vslab.ia.ac.cn/people/" target="_blank" rel="noopener noreferrer">Bo Wang</a>.</li>
+  </ul>
+</li>
+</ul>
+</div>
+
+## 🎓 Education
+
+- **Ph.D., Management Science and Engineering**, Beijing Jiaotong University, 2022–2026.
+- **CSC Visiting Ph.D. Researcher, Computer Science**, Singapore Management University, 2024–2025. Advisor: Prof. Shengfeng He.
+- **M.S., Systems Engineering**, Wuyi University, 2019–2022. Outstanding Thesis Award.
+- **B.Eng., Communication Engineering**, Wuyi University, 2017–2019. Outstanding Graduate.
+
+## 📄 Selected Publications
+
+{% assign featured_pubs = site.publications | where_exp: "post", "post.featured_order" | sort: "featured_order" %}
+{% for post in featured_pubs %}
+  {% include publications-simple.html %}
+{% endfor %}
+
+## 📚 Full Publications
+
+<div class="home-profile__scholar" markdown="1">
+For the latest citation record, see [Google Scholar]({{ site.data.profile.author.googlescholar }}).
+</div>
+
+<div class="home-scroll home-scroll--pubs" markdown="0">
+{% include publications-list-by-year.html %}
+</div>
+
+## 🏆 Awards
+
+- Second Prize, “Huawei Cup” National Graduate Mathematical Modeling Competition, 2020, 2021, and 2022.
+- Second Prize, National Finals, Blue Bridge Cup Information Competition Group B, 2018.
+- National Scholarship of China, 2015.
+
+## 🤝 Academic Service
+
+- **Journals:** IEEE Transactions on Multimedia, IEEE Transactions on Circuits and Systems for Video Technology, IEEE Transactions on Neural Networks and Learning Systems, Neurocomputing, and others.
+- **Conferences:** NeurIPS, CVPR, ICML (Gold Reviewer), AAAI, ACM Multimedia, and others.
+
+## 📬 CV and Contact
+
+The downloadable English and Chinese CV files are being refreshed to synchronize the August 2026 graduation status, current title, and research positioning. Until then, this homepage is the current public profile.
+
+Email: [{{ site.data.profile.author.email }}](mailto:{{ site.data.profile.author.email }}) · [Google Scholar]({{ site.data.profile.author.googlescholar }}) · [ORCID]({{ site.data.profile.author.orcid }}) · [GitHub](https://github.com/{{ site.data.profile.author.github }})
+
 </div>

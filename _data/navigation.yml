@@ -1,11 +1,2 @@
-main:
-  - title: "Home"
-    url: /
-  - title: "Research"
-    url: /research/
-  - title: "Publications"
-    url: /publications/
-  - title: "CV"
-    url: /cv/
-  - title: "GitHub"
-    url: https://github.com/Guanzhou-Ke
+# Single-page homepages: keep section navigation in the page itself.
+main: []

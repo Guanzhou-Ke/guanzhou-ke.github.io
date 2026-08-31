@@ -1,17 +1,36 @@
-<article class="publication-row">
-  {% if post.arch %}
-    <div class="publication-row__figure">
-      <img src="{% if post.arch contains '://' %}{{ post.arch }}{% else %}{{ post.arch | relative_url }}{% endif %}" alt="Diagram for {{ post.title | escape }}" loading="lazy" width="320" height="180" />
+{% include base_path %}
+
+{% if post.header.teaser %}
+{% capture teaser %}{{ post.header.teaser }}{% endcapture %}
+{% else %}
+{% assign teaser = site.teaser %}
+{% endif %}
+
+{% if post.id %}
+{% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+{% else %}
+{% assign title = post.title %}
+{% endif %}
+
+<div class="{{ include.type | default: " list" }}__item">
+  <div class="list__item">
+    <div class="left">
+      {% if post.banner %}
+      <img src="{{ post.arch }}" class="left" style="height: 70%;" alt="Diagram for {{ post.title | escape }}">
+      <img src="{{ post.banner }}" class="left" style="height: 30%;" alt="Venue banner for {{ post.title | escape }}">
+      {% else %}
+      <img src="{{ post.arch }}" class="left" alt="Diagram for {{ post.title | escape }}">
+      {% endif %}
     </div>
-  {% endif %}
-  <div class="publication-row__body">
-    <p class="publication-card__venue">{{ post.pubinfo }}</p>
-    <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-    <p class="publication-card__authors">{{ post.authors }}</p>
-    <div class="publication-card__links">
-      {% if post.pdf %}<a href="{{ post.pdf }}" target="_blank" rel="noopener noreferrer">Paper</a>{% endif %}
-      {% if post.code %}<a href="{{ post.code }}" target="_blank" rel="noopener noreferrer">Code</a>{% endif %}
-      <a href="{{ post.url | relative_url }}">Details</a>
+
+    <div class="right">
+      <b>{{ post.title }}</b>
+      <br> <text class="small-text">{{ post.authors }}</text>
+      <br> <text class="small-text">{{ post.pubinfo }}</text>
+      <br> <text class="small-text">Rank: <text style="color: red;">{{ post.rank }}</text>, MISC:
+        {% if post.pdf %}<a href="{{ post.pdf }}" style="color: blue;" target="_blank" rel="noopener noreferrer">[PDF]</a>{% else %}<span style="color: gray;">[PDF]</span>{% endif %}
+        {% if post.code %}<a href="{{ post.code }}" style="color: blue;" target="_blank" rel="noopener noreferrer">[CODE]</a>{% else %}<span style="color: gray;">[CODE]</span>{% endif %}
+      </text>
     </div>
   </div>
-</article>
+</div>

@@ -39,13 +39,21 @@
   {% assign seo_author_twitter = seo_author_twitter | replace: "@", "" %}
 {% endif %}
 
-<meta property="og:locale" content="{{ site.locale | default: "en" }}">
+<meta property="og:locale" content="{{ page.locale | default: site.locale | default: "en" }}">
 <meta property="og:site_name" content="{{ site.title }}">
 <meta property="og:title" content="{{ page.title | default: site.title | markdownify | strip_html | strip_newlines | escape_once }}">
 
 {% if seo_url %}
   <link rel="canonical" href="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
   <meta property="og:url" content="{{ page.url | prepend: seo_url | replace: "/index.html", "/" }}">
+{% endif %}
+
+{% if page.url == "/" %}
+  <link rel="alternate" hreflang="en" href="{{ seo_url }}/">
+  <link rel="alternate" hreflang="zh-CN" href="{{ seo_url }}/zh/">
+{% elsif page.url == "/zh/" %}
+  <link rel="alternate" hreflang="en" href="{{ seo_url }}/">
+  <link rel="alternate" hreflang="zh-CN" href="{{ seo_url }}/zh/">
 {% endif %}
 
 {% if seo_description %}
